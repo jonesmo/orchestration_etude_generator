@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "orchestration-etude-generator"
+version = "0.1.0"
+description = ""
+authors = ["Molly Jones <mojones.e@gmail.com>"]
+license = "CC BY-NC 4.0"
+readme = "README.md"
+packages = [{include = "orchestration_etude_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
